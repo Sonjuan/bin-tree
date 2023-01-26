@@ -15,8 +15,8 @@ typedef struct Node Node;
 // serializability dump node_pool on the other file
 struct Node{
     char text[24];
-    int32_t left;
-    int32_t right;
+    int16_t left;
+    int16_t right;
 };
 
 #define NODE_POOL_CAP 1024
